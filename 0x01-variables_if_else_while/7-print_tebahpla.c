@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- *main - print numbers from 0 to 9.
+ *main - print alphabet in new line.
  *Return: Always 0
  */
 
 int main(void)
 {
-	int n;
+	char ch;
 
-	for (n = '0' ; n <= '9' ; n++)
+	for (ch = 'z' ; ch >= 'a' ; ch--)
 	{
-		putchar(n);
+		putchar(ch);
 	}
 
 	putchar('\n');
